@@ -2,10 +2,6 @@ package com.harshal.introduction;
 
 class Animals{
     int legs;
-//    Animals() {
-//        Practice math = new Practice();
-//        Practice.math.nothing;
-//    }
     void anything(){
         System.out.println(Practice.lion.legs);
     }
