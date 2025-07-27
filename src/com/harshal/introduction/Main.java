@@ -8,9 +8,10 @@ public class Main {
         int[] roll_numbers = new int[5];
 
         //store 5 names
-        String[] names = new String[5];
+          String[] names = new String[5];
+          
 
-        //store data of 5 students
+//        store data of 5 students
 //        int[] rno = new int[5];
 //        String[] name = new String[5];
 //        float[] marks = new float[5];
