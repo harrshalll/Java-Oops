@@ -12,6 +12,12 @@ public class Human {
         this.name = name;
         this.salary = salary;
         this.married = married;
-        Human.population += 1;//to access the static variable className.variable is required.
+        Human.population += 1;//To access the static variable className.variable is required.because static variable
+                            // can't go with instance variable which is accessible by this keyword
     }
 }
+/*
+Static variable---> When the member declared is static, it can be accessed before any object of that class is being created
+                    and without referencing to that objects.
+                    you can check by commenting out the object declaration and then try to access the Human.population
+ */
