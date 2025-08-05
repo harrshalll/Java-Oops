@@ -5,3 +5,4 @@ public class Greeting {
         System.out.println("Hello World");
     }
 }
+//packages are just folders which contents classes in compartments.
