@@ -21,7 +21,7 @@ public class Main {
 //         greeting(); you can not access non-static inside static field because it requires an instances
 
         // here is how can you access non-static inside static
-        Main obj = new Main();
+        Main obj = new Main();// you can create object of that same class inside that class if it is inside any method
         obj.greeting();
     }
     // we know that something which is not static belongs to an object

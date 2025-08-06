@@ -7,6 +7,10 @@ public class Human {
     boolean married;
     static long population;// static keyword in class is used to declare the property which is same for all objects.
 
+    static void message(){
+        System.out.println("Hello World");
+        //System.out.println(this.age);you cannot use this inside static because this keyword belongs to/ refers to an object
+    }
     public Human(int age, String name, int salary, boolean married) {
         this.age = age;
         this.name = name;
