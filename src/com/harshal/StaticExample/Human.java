@@ -5,7 +5,7 @@ public class Human {
     String name;
     int salary;
     boolean married;
-    static long population;// static keyword in class is used to declare the property which is same for all objects.
+    static long population;// static keyword in class is used to declare the property which is same for all objects.static word is used when attribute/property of class is same for all the objects created inside that class 
 
     static void message(){
         System.out.println("Hello World");
