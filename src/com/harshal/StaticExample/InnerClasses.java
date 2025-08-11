@@ -1,15 +1,16 @@
 package com.harshal.StaticExample;
 
-public class InnerClasses {
+public class InnerClasses {//Outside Classes cannot be static because itself cannot dependent on class.
 
-    static class Test {//static ued here because inner class doesn't have to depend on object of outer class to run
+    static class Test {//static used here because inner class doesn't have to depend on object of outer class to run
         // static used here because the inner class does not need to access instance members of the outer class.
-        // This allows us to create the inner class objects without creating an object of the outer class.
+        // This means static here  allows us to create the inner class objects without creating an object of the outer class.
 
         String name;
         public Test(String name) {
             this.name = name;
         }
+
 
         @Override
         public String toString() {
