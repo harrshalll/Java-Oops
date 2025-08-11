@@ -5,7 +5,7 @@ public class Human {
     String name;
     int salary;
     boolean married;
-    static long population;// static keyword in class is used to declare the property which is same for all objects.static word is used when attribute/property of class is same for all the objects created inside that class 
+    static long population;// static keyword in class is used to declare the property which is same for all objects.static word is used when attribute/property of class is same for all the objects created inside that class
 
     static void message(){
         System.out.println("Hello World");
@@ -18,6 +18,8 @@ public class Human {
         this.married = married;
         Human.population += 1;//To access the static variable className.variable is required.because static variable
                             // can't go with instance variable which is accessible by this keyword
+                           // you can access via this keyword but, it's not better convention because static is related
+                            // with class not object name/ instance variable.
     }
 }
 /*
