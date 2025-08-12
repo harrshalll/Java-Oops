@@ -13,6 +13,10 @@ public class Box {
 
     //cube
     Box(double side) {
+
+         super();//Call the superclass constructor from the subclass constructor.
+
+
         this.l = side;
         this.h = side;
         this.w = side;
