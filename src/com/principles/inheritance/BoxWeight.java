@@ -14,4 +14,13 @@ public class BoxWeight extends Box{
         // In subclass/ child class you have to call the parent class constructor first by super(parameters);
         //super(h, l, w); is not allowed, because compiler will see from top to bottom while compiling.
     }
+
+    public BoxWeight(double side, double weight) {
+        super(side);
+        this.weight = weight;
+    }
+    public BoxWeight(BoxWeight other){
+        super(other);
+        weight = other.weight;
+    }
 }

@@ -30,6 +30,15 @@ public class Main {
 //        BoxWeight box5 = new Box(2,5,6);
 //        System.out.println(box5.weight);
 
+        BoxPrice box =  new BoxPrice(5,25,100);// shows the single inheritance where it inherits the attributes of all superclass above it
+
+
+
+        //Multiple Inheritance is a feature of an object-oriented concept, where a class can inherit properties of more
+        // than one parent class.In short when subclass has more than one parent class
+        //Multiple Inheritance is not allowed in java because if two superclass has same attribute and, we create the object of
+        //subclass when we try to access that attribute, compiler gets confuse which attribute to choose (ambiguity).
+        //Will do in Interfaces
 
     }
 }
@@ -37,12 +46,25 @@ public class Main {
 Note:-
 1. parent class cannot access the members and methods of child class but child class can access the members of parent class through
    inheritance until and unless member is private.
+
+
 2. parent class is also known as superclass and child class also known as subclass
+
+
 3. super keyword is to access the attributes of superclass.
+
+
 4. If you have two weight attributes i.e. one in superclass and another in child class ,and you want to access the weight
    attribute from superclass(field hiding) by super.weight, super keyword is used there. Note 3&4 is use case of super keyword
+
+
 5. The 'super' keyword is used to:
    - Access members (fields or methods) of the superclass.
    - Call the superclass constructor from the subclass constructor.
 
+6. In hierarchical inheritance, more than one subclass is inherited from a single base class. i.e. more than one derived
+   class is created from a single base class
+
+7.  Hybrid Inheritance---> Combination of single and multiple Inheritance and not allowed in java like Multiple Inheritance
+    can achieve it by interfaces
  */
