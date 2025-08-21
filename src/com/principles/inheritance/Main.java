@@ -15,7 +15,7 @@ public class Main {
 //        System.out.println(box6.weight);
         //It is reference type of object which determines which members can access not the object type created.From above
         //box6.weight cannot accessible even if we created object of BoxWeight because reference type of object box6 is of Box
-        // and Box doesn't have any field like weight.
+        // and Box doesn't have any field like weight.you can declare and initialized it but can't access it.
 
 
 
@@ -27,18 +27,23 @@ public class Main {
         // but here, when obj itself is of type parent class, how will you call the constructor who can access the weight field.
         //in short, when constructor of Box is being called when you create an object and Box constructor has three parameters only.
         //parent class has no idea about weight field of child class so you cannot initialized weight in obj of type Box class
-//        BoxWeight box5 = new Box(2,5,6);
+        // here you can see that ref type is of BoxWeight but object itself is of Box type, so it called the constructor
+        //of Box class which can't initialized the weight variable inside the Box constructor But you can access the
+        // weight variable because ref type is BoxWeight
+//        BoxWeight box5 = new Box(2,4,6);
 //        System.out.println(box5.weight);
 
-        BoxPrice box =  new BoxPrice(5,25,100);// shows the single inheritance where it inherits the attributes of all superclass above it
+        BoxPrice box =  new BoxPrice(5,25,100);// shows the single inheritance where it inherits the
+        // attributes of all superclass above it
+        BoxPrice new_box = new BoxPrice(5,6,54,8,78);
 
 
-
+        //Multiple Inheritance-->
         //Multiple Inheritance is a feature of an object-oriented concept, where a class can inherit properties of more
         // than one parent class.In short when subclass has more than one parent class
         //Multiple Inheritance is not allowed in java because if two superclass has same attribute and, we create the object of
         //subclass when we try to access that attribute, compiler gets confuse which attribute to choose (ambiguity).
-        //Will do in Interfaces
+        //Will do in Interfaces.
 
     }
 }
@@ -63,8 +68,8 @@ Note:-
    - Call the superclass constructor from the subclass constructor.
 
 6. In hierarchical inheritance, more than one subclass is inherited from a single base class. i.e. more than one derived
-   class is created from a single base class
+   class is created from a single base class. In short One superclass has more than one subclass
 
 7.  Hybrid Inheritance---> Combination of single and multiple Inheritance and not allowed in java like Multiple Inheritance
-    can achieve it by interfaces
+    can achieve it by interfaces.
  */

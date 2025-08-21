@@ -8,7 +8,7 @@ public class BoxPrice extends BoxWeight {
         this.cost = -1;
     }
 
-    BoxPrice(BoxPrice other) {
+    BoxPrice(BoxPrice other) {//copy constructor
         super(other);
         this.cost = other.cost;
     }

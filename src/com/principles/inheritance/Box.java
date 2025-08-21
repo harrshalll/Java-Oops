@@ -14,8 +14,10 @@ public class Box {
     //cube
     Box(double side) {
 
-         super();//Call the superclass constructor from the subclass constructor.
-
+         //super();//Call the superclass constructor from the subclass constructor.Here, Box doesn't have user defined
+        // superclass but in java there is one default java class on which every class is depends which is Object class
+        // so if class doesn't have any superclass and super keyword is used in the class that indicates by default
+        // Object is being called.
 
         this.l = side;
         this.h = side;
@@ -29,7 +31,7 @@ public class Box {
         this.w = w;
     }
 
-    Box (Box old){
+    Box (Box old){// Copy constructor
          this.h = old.h;
          this.w = old.w;
          this.l = old.l;
