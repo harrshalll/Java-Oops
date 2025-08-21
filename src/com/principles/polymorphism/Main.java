@@ -21,6 +21,9 @@ public class Main {
 
 
 
+        Shapes.greeting();//this is static method so, we didn't need object of Shapes class to access this method
+
+        circle1.greeting();//you cannot override statics method
 
     }
 }
@@ -33,4 +36,11 @@ b. Run Time / Dynamic polymorphism ---> achieved via method overriding.
 
 3. As we know ref variable of object decides the property of a created object but override annotation will override the
 // method according to it.
+
+
+4. if we declare superclass method as final it cannot be overridden.
+   so, final methods can't override.
+
+5.  if we declare class as final then, it implicitly declare all field of that class as final
+
  */

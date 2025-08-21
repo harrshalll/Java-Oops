@@ -45,6 +45,10 @@ public class Main {
         //subclass when we try to access that attribute, compiler gets confuse which attribute to choose (ambiguity).
         //Will do in Interfaces.
 
+
+
+        Box.greeting();//this is static method so, we don't need objects of class access this method
+
     }
 }
 /*
