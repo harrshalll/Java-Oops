@@ -1,5 +1,5 @@
-package com.user;
-import com.bank.Bankservices;
+package com.harshal.user;
+import com.harshal.bank.Bankservices;
 
 
 public class UserService {

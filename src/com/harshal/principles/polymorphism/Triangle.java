@@ -1,4 +1,4 @@
-package com.principles.polymorphism;
+package com.harshal.principles.polymorphism;
 
 public class Triangle extends Shapes{
     void area(){

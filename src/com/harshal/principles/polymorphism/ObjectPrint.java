@@ -1,4 +1,4 @@
-package com.principles.polymorphism;
+package com.harshal.principles.polymorphism;
 
 public class ObjectPrint {//it extends default Object class
     int num;

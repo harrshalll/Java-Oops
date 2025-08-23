@@ -1,3 +1,5 @@
+package com.harshal.bank;
+
 public class BankAccountSimulation {
     public static void main(String[] args) {
         BankAccount Harshal = new BankAccount("Harshal Avhad", 500000);

@@ -1,4 +1,4 @@
-package com.principles.inheritance;
+package com.harshal.principles.inheritance;
 
 
 public class Main {

@@ -1,4 +1,6 @@
-package com.principles.encapsulation;
+package com.harshal.principles.encapsulation;
+
+import com.harshal.access.A;
 
 // Example of Encapsulation
 class Student {
@@ -86,8 +88,14 @@ public class Main {
 }
 
          */
+
+        A a = new A(1,"Example",54) ;
+        String n = a.name;
+
     }
 }
+
+
 /*
 Encapsulation is encapsulating the data, members and methods in class and can access and manipulate by getters and setters not directly
 

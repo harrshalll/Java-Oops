@@ -1,4 +1,4 @@
-package com.bank;
+package com.harshal.bank;
 
 public class Bankservices {
     String bankname;

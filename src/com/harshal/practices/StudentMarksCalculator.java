@@ -1,3 +1,5 @@
+package com.harshal.practices;
+
 public class StudentMarksCalculator {
     public static void main(String[] args) {
        Student Aman = new Student("Aman",78,96,70);

@@ -1,3 +1,5 @@
+package com.harshal.practices;
+
 public class PracticeOne {
     public static void main(String[] args) {
         Book HarryPotter1 = new Book();

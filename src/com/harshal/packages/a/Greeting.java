@@ -17,3 +17,12 @@ public class Greeting {
     }
 
 }
+/*
+In built packages
+1. lang--> contains internal essential things of java mostly syntax of java depends on this package.
+2. io--> contains class which helps in file reading, optimize input and out etc.,
+3. util--> contains utility classes like data structure, Scanner etc.,
+4. applet--> used to create applet.
+5. awt--> used for GUI.
+6. net--> used for networking application like if anyone wants to connect the created app with networks
+ */
