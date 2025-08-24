@@ -9,7 +9,7 @@ public class Subclass extends A {
 
     public static void main(String[] args) {
         Subclass obj2 = new Subclass(2,"Protected",56);
-         int q = obj2.n1;
+        int q = obj2.n1;
 
     }
 }
