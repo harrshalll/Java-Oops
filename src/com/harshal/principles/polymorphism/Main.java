@@ -41,6 +41,6 @@ b. Run Time / Dynamic polymorphism ---> achieved via method overriding.
 4. if we declare superclass method as final it cannot be overridden.
    so, final methods can't override.
 
-5.  if we declare class as final then, it implicitly declare all field of that class as final
+5.  if we declare class as final then, it implicitly declared all field of that class as final
 
  */

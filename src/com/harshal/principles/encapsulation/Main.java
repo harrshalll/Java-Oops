@@ -63,7 +63,6 @@ public class Main {
 
         System.out.println("Updated Age: " + s1.getAge());
         System.out.println("Updated Grade: " + s1.getGrade());
-
         /*
 class Student {
     private String name;

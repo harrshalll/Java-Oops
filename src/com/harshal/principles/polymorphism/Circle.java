@@ -8,8 +8,8 @@ public class Circle extends Shapes{
     void area(){
         System.out.println("Area of Circle is pie * r * r");
     }
-    //@Override we can't override the static method
-    static void greeting(){
+    //@Override// we can't override the static method
+     static void greeting(){
         System.out.println("Hey!, I am in Circle class");
     }
 }
