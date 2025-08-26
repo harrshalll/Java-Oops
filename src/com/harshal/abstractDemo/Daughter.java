@@ -1,6 +1,15 @@
 package com.harshal.abstractDemo;
 
 public class Daughter extends Parent{
+    public Daughter(int num) {
+        super(num);
+    }
+
+    @Override
+    void normal() {
+        super.normal();
+    }
+
     @Override
     void career(String name) {
         System.out.println("I will be " + name);
